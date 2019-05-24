@@ -1,0 +1,29 @@
+{
+  "name": "helper-geocodio",
+  "version": "1.0.0",
+  "description": "Helper for making GET and POST calls to geocod.io API",
+  "main": "examples.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttosi/geocodio.git"
+  },
+  "keywords": [
+    "gecodio",
+    "geocod.io",
+    "geocoding",
+    "reverse",
+    "geocoding"
+  ],
+  "author": "Tony S. Tosi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ttosi/geocodio/issues"
+  },
+  "homepage": "https://github.com/ttosi/geocodio#readme",
+  "dependencies": {
+    "dotenv": "^8.0.0"
+  }
+}
