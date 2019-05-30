@@ -21,7 +21,7 @@ const geocodio = new Geocodio({
 ```
 See https://www.geocod.io/docs/#fields for more information on available files.
 
-#### Eamples
+### Eamples
 ##### Forward Geocoding
 ```javascript
 /**
