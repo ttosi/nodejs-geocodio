@@ -6,8 +6,8 @@ const geocodio = new Geocodio({
     api_key: process.env.GEOCODIO_API_KEY, // YOUR_GEOCODIO_API_KEY (required)
     // base_endpoint: '', // Default - api.geocod.io
     // api_version: '',   // Default - v1.3
-    // fields: ''         // Default - none. comma separated list of fields,
-                          // see https://www.geocod.io/docs/#fields
+    // fields: '',        // Default - none. comma separated list of fields,
+    // timeout: 120000    // Default - 120000 ms (2 minutes)
 });
 
 /**
