@@ -55,12 +55,12 @@ geocodio.post('geocode', addresses)
 /**
  *  Geocode POST example the JSON object way (batch of addresses)
  */
-const addresses2 = {
+const addresses = {
     ADDRESS_ID1: '1600 Amphitheatre Parkway, Mountain View, CA 94043',
     ADDRESS_ID2: 'One Microsoft Way, Redmond, WA 98052',
     ADDRESS_ID3: 'One Apple Park Way, Cupertino, CA 95014'
 };
-geocodio.post('geocode', addresses2)
+geocodio.post('geocode', addresses)
     .then(res => {
         // do stuff
     })
