@@ -1,5 +1,5 @@
 # nodejs-geocodio
-A nodejs library for accessing the geocod.io API service.
+A nodejs library for accessing the [geocod.io](https://www.geocod.io/) API service.
 
 ### Installation
     npm i --save nodejs-geocodio
@@ -9,7 +9,7 @@ See https://www.geocod.io/docs/ for full documentation.
 
 ##### Configuration
 
-It is srtongly suggested to store your API key in an external file, e.g. [dotenv](https://github.com/motdotla/dotenv).
+It is strongly suggested to store your API key in an external file, e.g. using [dotenv](https://github.com/motdotla/dotenv).
 
 ```javascript
 const geocodio = new Geocodio({
@@ -21,7 +21,7 @@ const geocodio = new Geocodio({
 ```
 See https://www.geocod.io/docs/#fields for more information on available files.
 
-### Eamples
+### Examples
 ##### Forward Geocoding
 ```javascript
 /**
@@ -37,7 +37,7 @@ geocodio.get('geocode', address)
 
 ```javascript
 /**
- *  Geocode POST example the array way (batch of addresses)
+ *  Geocode POST example, the array way (batch of addresses)
  */
 const addresses = [
     '1600 Amphitheatre Parkway, Mountain View, CA 94043',
@@ -53,7 +53,7 @@ geocodio.post('geocode', addresses)
 
 ```javascript
 /**
- *  Geocode POST example the JSON object way (batch of addresses)
+ *  Geocode POST example, the JSON object way (batch of addresses)
  */
 const addresses = {
     ADDRESS_ID1: '1600 Amphitheatre Parkway, Mountain View, CA 94043',
