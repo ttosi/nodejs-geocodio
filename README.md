@@ -36,7 +36,7 @@ geocodio.get('geocode', address)
     .catch(err => { throw err; });
 ```
 See https://www.geocod.io/docs/#single-address for documentation
-
+<br />
 
 ```javascript
 /**
@@ -54,7 +54,7 @@ geocodio.post('geocode', addresses)
     .catch(err => { throw err; });
 ```
 See https://www.geocod.io/docs/#batch-geocoding for documentation
-
+<br />
 
 ```javascript
 /**
@@ -72,7 +72,7 @@ geocodio.post('geocode', addresses)
     .catch(err => { throw err; });
 ```
 See https://www.geocod.io/docs/#batch-geocoding for documentation
-
+<br />
 
 ##### Reverse Geocoding
 ```javascript
@@ -87,7 +87,7 @@ geocodio.get('reverse', latlong)
     .catch(err => { throw err; });
 ```
 See https://www.geocod.io/docs/#reverse-geocoding-single-coordinate for documentation
-
+<br />
 
 ```javascript
 /**
@@ -105,7 +105,6 @@ geocodio.post('reverse', latlongs)
     .catch(err => { throw err; });
 ```
 See https://www.geocod.io/docs/#batch-reverse-geocoding for documentation
-
 
 ***
 
