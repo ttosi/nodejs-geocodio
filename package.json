@@ -1,28 +1,31 @@
 {
-  "name": "helper-geocodio",
-  "version": "1.0.0",
-  "description": "A node module for easily interfacing with the Geocod.io API",
-  "main": "examples.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ttosi/geocodio.git"
-  },
-  "keywords": [
-    "gecodio",
-    "geocod.io",
-    "reverse geocoding",
-    "geocoding"
-  ],
-  "author": "Tony S. Tosi",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ttosi/geocodio/issues"
-  },
-  "homepage": "https://github.com/ttosi/geocodio#readme",
-  "dependencies": {
-    "dotenv": "^8.0.0"
+    "name": "nodejs-geocodio",
+    "version": "1.0.0",
+    "description": "Library for accessing the geocod.io API geocoding service",
+    "main": "examples.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/ttosi/geocodio.git"
+    },
+    "keywords": [
+      "gecodio",
+      "geocod.io",
+      "geocoding",
+      "reverse geocoding",
+      "node",
+      "nodejs"
+    ],
+    "author": "Tony S. Tosi",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/ttosi/geocodio/issues"
+    },
+    "homepage": "https://github.com/ttosi/geocodio#readme",
+    "dependencies": {
+      "dotenv": "^8.0.0"
+    }
   }
-}
+  
