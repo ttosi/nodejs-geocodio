@@ -12,6 +12,8 @@ See https://www.geocod.io/docs/ for full documentation.
 It is strongly suggested to store your API key in an external file, e.g. using [dotenv](https://github.com/motdotla/dotenv).
 
 ```javascript
+const Geocodio = require('geocodio');
+
 const geocodio = new Geocodio({
     api_key: process.env.GEOCODIO_API_KEY, // YOUR_GEOCODIO_API_KEY (required)
     // base_endpoint: '', // Defaults to api.geocod.io
