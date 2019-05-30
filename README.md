@@ -19,7 +19,7 @@ const geocodio = new Geocodio({
     // fields: ''         // Defaults to none - a comma separated list of fields
 });
 ```
-See https://www.geocod.io/docs/#fields for more information on available files.
+See https://www.geocod.io/docs/#fields for more information on available fields.
 
 ### Examples
 ##### Forward Geocoding
